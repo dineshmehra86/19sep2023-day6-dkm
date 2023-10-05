@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -24,4 +24,54 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+/* My Custom css Start Here */
+body {
+  background-color: #e8e8e8;
+  margin: 0;
 }
+
+header {
+  width: 1439px;
+  height: 80px;
+  background-color: #fff;
+  margin: auto;
+  border: #ff0000 dashed 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: teal;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+main {
+  width: 1439px;
+  height: 1500px;
+  background-color: #fff;
+  margin: auto;
+  border: #ff0000 dashed 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: teal;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+footer {
+  width: 1439px;
+  height: 302px;
+  background-color: #fff;
+  margin: auto;
+  border: #ff0000 dashed 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: teal;
+  font-size: 28px;
+  font-weight: bold;
+}
+/* My Custom css End Here */
